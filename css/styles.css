@@ -8,6 +8,8 @@ body {
   background: rgb(15, 14, 16);
   background: linear-gradient(90deg, rgba(15, 14, 16, 1) 0%, rgba(23, 16, 31, 1) 100%);
   font-family: "Barlow", sans-serif;
+  display: grid;
+  align-content: space-between;
 }
 
 h1,
@@ -44,20 +46,19 @@ img {
   width: 100%;
 }
 
-body {
-  max-width: 1400px;
-  margin: auto;
-}
-
 header {
   padding-top: 60px;
+  width: 1400px;
+  margin: auto;
 }
 
 main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  padding-top: 100px;
+  gap: 30px;
+  padding-top: 60px;
+  max-width: 1400px;
+  margin: auto;
 }
 
 .card {
@@ -74,6 +75,12 @@ main {
 .links {
   display: flex;
   flex-direction: column;
+}
+
+footer {
+  background-color: #5f516b;
+  height: 70px;
+  margin-top: 50px;
 }
 
 /* -------------- ANIMATIONS -------------- */
