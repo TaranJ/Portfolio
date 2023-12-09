@@ -1,0 +1,87 @@
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+
+body {
+  background: rgb(15, 14, 16);
+  background: linear-gradient(90deg, rgba(15, 14, 16, 1) 0%, rgba(23, 16, 31, 1) 100%);
+  font-family: "Barlow", sans-serif;
+}
+
+h1,
+h2,
+a {
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+h2,
+p {
+  margin: 0px;
+}
+
+h1 {
+  font-weight: 100;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+a {
+  font-style: italic;
+  color: #000;
+  text-decoration: none;
+  font-weight: 200;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  max-width: 1400px;
+  margin: auto;
+}
+
+header {
+  padding-top: 60px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding-top: 100px;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 4px 4px 10px;
+}
+
+.description {
+  padding: 30px;
+  display: grid;
+  height: 250px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+}
+
+/* -------------- ANIMATIONS -------------- */
+a:hover {
+  color: #2c004f;
+  font-weight: 400;
+}
+
+.card:hover {
+  box-shadow: 2px 2px 15px #6b597a;
+}
